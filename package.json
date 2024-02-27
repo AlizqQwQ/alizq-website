@@ -1,0 +1,20 @@
+{
+  "name": "alizq-website",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "wrangler pages dev dist",
+    "deploy": "wrangler pages deploy dist",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^9.0.1",
+    "astro": "^4.4.5"
+  },
+  "devDependencies": {
+    "wrangler": "^3.29.0"
+  }
+}
