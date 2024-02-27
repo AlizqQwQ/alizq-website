@@ -1,6 +1,6 @@
 # build output
 dist/
-
+kairun/
 # generated types
 .astro/
 
